@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VibeTrack - Fitness & Nutrition</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+  
+      <a href="#" class="logo">
+        VibeTrack<span class="span">.</span>
+      </a>
+  
+      <nav class="navbar" data-navbar>
+        <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+       </button>
+       <!-- <button class="theme-toggle-btn" aria-label="Toggle Theme" id="theme-toggle">
+          <ion-icon name="moon-outline" aria-hidden="true"></ion-icon>
+        </button> -->
+      
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#course" class="navbar-link" data-nav-link>Courses</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#fitness-tracker" class="navbar-link" data-nav-link>Fitness Tracker</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#diet-recommendation" class="navbar-link" data-nav-link>Diet Recommendation</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#food-chart" class="navbar-link" data-nav-link>Nutrition Chart</a>
+          </li>
+          <!--<li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>-->
+        </ul>
+      </nav>
+  
+      <!--<a href="#" class="btn btn-primary">Sign Up</a>-->
+  
+      <button class="nav-toggle-btn" aria-label="open manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+  
+      <div class="overlay" data-nav-toggler data-overlay></div>
+  
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #MAIN
+      -->
+
+      <section class="section hero" aria-label="hero" id="home" data-section
+        style="background-image: url('./assets/images/hero-banner.jpg')">
+        <div class="container">
+
+          <p class="hero-subtitle">Fitness & Nutrition</p>
+
+          <h1 class="h1 hero-title" size="30">This lifestyle for your fitness is more than just diet.</h1>
+
+
+          <a href="Functional Fitness Workout Program - Dr Workout.pdf" class="btn btn-secondary"
+          target="_blank">Start Course</a>
+
+          <div class="social-wrapper">
+
+            <p class="social-title">Connect with us:</p>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.instagram.com/_.srushanth_/" class="social-link"
+                target="_blank">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/sameer-sayyed-13b986293/" class="social-link"
+                target="_blank">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-label="service" data-section>
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-1.svg" width="60" height="60" loading="lazy" alt="Women’s Course">
+                </div>
+
+                <h3 class="h3">
+                  <h1>Women’s Course</h1>
+                </h3>
+
+                <p class="card-text">
+                  Empower yourself with our Women's Fitness Course, offering tailored workouts.
+                </p>
+
+                <a href="12-week-female-workout-plan.pdf" class="btn btn-secondary"
+                target="_blank">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card active">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-2.svg" width="60" height="60" loading="lazy" alt="Basic Course">
+                </div>
+
+                <h3 class="h3">
+                  <h1>Food Diet for everyone</h1>
+                </h3>
+
+                <p class="card-text">
+                  Unlock the secrets to a healthier, more balanced lifestyle
+                </p>
+
+                <a href="1500-Calorie Indian Diet Plan - Dr Workout.pdf" class="btn btn-secondary"
+                target="_blank">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-3.svg" width="60" height="60" loading="lazy" alt="Men’s Course">
+                </div>
+
+                <h3 class="h3">
+                  <h1>Men’s Course</h1>
+                </h3>
+
+                <p class="card-text">
+                  Elevate your fitness game with our targeted men’s fitness course
+                </p>
+
+                <a href="12 Week Body Transformation for Men - Dr Workout.pdf" class="btn btn-secondary"
+                target="_blank">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+<!-- 
+  - #FITNESS TRACKER
+-->
+
+<section class="section fitness-tracker" aria-label="fitness tracker" id="fitness-tracker" data-section>
+  <div class="container">
+
+    <div class="title-wrapper">
+      <p class="section-subtitle">Track Your Fitness</p>
+      <h2 class="h2 section-title">Fitness Tracker</h2>
+    </div>
+
+    <div class="tracker-card">
+      <div class="tracker-inputs">
+        <label for="weight">Weight (kg)</label>
+        <input type="number" id="weight" placeholder="Enter your weight">
+        <label for="height">Height (cm)</label>
+        <input type="number" id="height" placeholder="Enter your height">
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="Enter your age">
+        <label for="activity-level">Activity Level</label>
+        <select id="activity-level">
+          <option value="sedentary">Sedentary (little or no exercise)</option>
+          <option value="lightly-active">Lightly active (light exercise/sports 1-3 days/week)</option>
+          <option value="moderately-active">Moderately active (moderate exercise/sports 3-5 days/week)</option>
+          <option value="very-active">Very active (hard exercise/sports 6-7 days a week)</option>
+          <option value="extra-active">Extra active (very hard exercise/sports & physical job or 2x training)</option>
+        </select>
+      </div>
+
+      <button class="btn btn-secondary" id="calculate-bmi">Calculate BMI</button>
+      <br>
+      <button class="btn btn-secondary" id="calculate-calories">Calculate Daily Calories</button>
+
+      <div class="tracker-results">
+        <p id="bmi-result"></p>
+        <p id="calories-result"></p>
+      </div>
+
+      <div class="bmi-levels">
+        <h3>BMI Levels:</h3>
+        <ul>
+          <li><span class="healthy">Underweight:</span> BMI < 18.5</li>
+          <li><span class="healthy">Normal weight:</span> BMI = 18.5-24.9</li>
+          <li><span class="unhealthy">Overweight:</span> BMI = 25-29.9</li>
+          <li><span class="unhealthy">Obese:</span> BMI ≥ 30</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- 
+  - #DIET RECOMMENDATION
+-->
+<section class="section diet-recommendation" aria-label="diet recommendation" id="diet-recommendation" data-section>
+  <div class="container">
+    <h2 class="h2 section-title">Personalized Diet Recommendation</h2>
+
+    <form id="blood-test-form">
+      <label for="vitamin-d">Vitamin D Level (ng/mL):</label>
+      <input type="number" id="vitamin-d" placeholder="Enter level" required>
+
+      <label for="vitamin-b12">Vitamin B12 Level (pg/mL):</label>
+      <input type="number" id="vitamin-b12" placeholder="Enter level" required>
+
+      <label for="iron">Iron Level (µg/dL):</label>
+      <input type="number" id="iron" placeholder="Enter level" required>
+
+      <label for="calcium">Calcium Level (mg/dL):</label>
+      <input type="number" id="calcium" placeholder="Enter level" required>
+
+      <button type="button" id="get-diet-recommendation" class="btn btn-secondary">Get Diet Recommendation</button>
+    </form>
+
+    <div id="diet-results" class="diet-results">
+      <!-- Diet recommendations will be displayed here -->
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+  - #FOOD CHART
+-->
+
+<section class="section food-chart" aria-label="food chart" id="food-chart" data-section>
+  <div class="container">
+
+    <div class="title-wrapper">
+      <p class="section-subtitle">Nutrition Chart</p>
+      <h2 class="h2 section-title">Food Chart with Benefits and Calories</h2>
+    </div>
+
+    <table class="food-chart-table">
+      <thead>
+        <tr>
+          <th>Food Item</th>
+          <th>Calories</th>
+          <th>Protein</th>
+          <th>Fat</th>
+          <th>Carbohydrates</th>
+          <th>Benefits</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Apple</td>
+          <td>95</td>
+          <td>0.3g</td>
+          <td>0.5g</td>
+          <td>25g</td>
+          <td>Boosts digestion, antioxidant properties</td>
+        </tr>
+        <tr>
+          <td>Banana</td>
+          <td>105</td>
+          <td>1.3g</td>
+          <td>0.3g</td>
+          <td>27g</td>
+          <td>Rich in potassium, good for heart health</td>
+        </tr>
+        <tr>
+          <td>Chicken Breast</td>
+          <td>165</td>
+          <td>31g</td>
+          <td>3.6g</td>
+          <td>0g</td>
+          <td>High-quality protein, low in fat</td>
+        </tr>
+        <tr>
+          <td>Brown Rice</td>
+          <td>110</td>
+          <td>2g</td>
+          <td>1.8g</td>
+          <td>25g</td>
+          <td>Good source of fiber, manganese, and selenium</td>
+        </tr>
+        <tr>
+          <td>Quinoa</td>
+          <td>150</td>
+          <td>4g</td>
+          <td>2g</td>
+          <td>30g</td>
+          <td>Complete protein, rich in iron and magnesium</td>
+        </tr>
+        <tr>
+          <td>Almonds</td>
+          <td>161</td>
+          <td>6g</td>
+          <td>14g</td>
+          <td>6g</td>
+          <td>Rich in vitamin E, magnesium, and healthy fats</td>
+        </tr>
+        <tr>
+          <td>Greek Yogurt</td>
+          <td>100</td>
+          <td>10g</td>
+          <td>0g</td>
+          <td>7g</td>
+          <td>High in protein, supports gut health</td>
+        </tr>
+        <tr>
+          <td>Spinach</td>
+          <td>7</td>
+          <td>0.9g</td>
+          <td>0.1g</td>
+          <td>1g</td>
+          <td>Packed with iron, vitamins, and antioxidants</td>
+        </tr>
+        <tr>
+          <td>Salmon</td>
+          <td>180</td>
+          <td>20g</td>
+          <td>10g</td>
+          <td>0g</td>
+          <td>Rich in omega-3 fatty acids, supports heart health</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about" id="about" data-section>
+        <div class="container">
+
+          <div class="about-banner img-holder" style="--width: 470; --height: 580;">
+            <img src="./assets/images/about-banner.jpg" width="470" height="580" loading="lazy" alt="about banner"
+              class="img-cover">
+
+           <a href="https://www.instagram.com/yanakandla.madhureddy/" class="btn btn-secondary"
+           target="_blank">Meet Instructor</a> 
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">We have expert instructor to help our students.</h2>
+
+            <p class="section-text">
+              Access expert instruction with our fitness tracker—get personalized guidance from top trainers to elevate your workouts and reach your goals.
+            </p>
+
+            <!--<h3 class="about-h3">100+ Courses</h3>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text the printing and typesetting standard dummy text ever since the 150 when
+              an unknown
+              printe specimen book has survived centuries.
+            </p>-->
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COURSE
+      -->
+
+      <section class="section course" aria-label="course" id="course" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+           <!-- <p class="section-subtitle">100+ Courses Available</p> -->
+
+            <h2 class="h2 section-title">Fitness & Nutrition Courses</h2>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/courses-1.jpg" width="350" height="300" loading="lazy"
+                    alt="Children Nutrition and Cooking" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price" value="98">₹626</data>
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">
+                      By: <span class="span">Dr.Punith</span>
+                    </a>
+                  </p>
+
+                  <h3 class="h3">
+                    <h1>Children Nutrition and Cooking</h1>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT8H20M">08 hr 20 mins</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <p class="card-meta-text">28 Lectures</p>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/courses-2.jpg" width="350" height="300" loading="lazy"
+                    alt="Introduction to Food and Health." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price" value="72">₹628</data>
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">
+                      By: <span class="span">Dr.Sameer</span>
+                    </a>
+                  </p>
+
+                  <h3 class="h3">
+                    <h1>Introduction to Food and Health.</h1>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT9H25M">09 hr 25 mins</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <p class="card-meta-text">16 Lectures</p>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/courses-3.jpg" width="350" height="300" loading="lazy"
+                    alt="Nutrition and Lifestyle in Pregnancy" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price" value="68">₹667</data>
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">
+                      By: <span class="span">Dr.Madhu </span>
+                    </a>
+                  </p>
+
+                  <h3 class="h3">
+                    <h1>Nutrition and Lifestyle in Pregnancy</h1>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT3H38M">03 hr 38 mins</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <p class="card-meta-text">18 Lectures</p>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li> 
+
+            
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section" data-section>
+      <div class="container">
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Subscribe Newsletter</p>
+
+          <p class="footer-list-text">
+            Subscribe now to boost your health journey!
+          </p>
+
+          <form action="" class="footer-form">
+            <input type="email" name="email_address" aria-label="email" placeholder="Enter email" required
+              class="email-field">
+
+            <button type="submit" class="btn btn-secondary">Subscribe Now</button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">All Courses</p>
+          </li>
+
+          <li>
+            <a href="full-body-workout-plan.pdf" class="footer-link"
+            target="_blank">Daily Exercise</a>
+          </li>
+
+          <li>
+            <a href="iehp111.pdf" class="footer-link"
+            target="_blank">Find Your Balance</a>
+          </li>
+
+          <li>
+            <a  class="footer-link">Personal Program</a>
+          </li>
+
+          <li>
+            <a  class="footer-link">Natural Process</a>
+          </li>
+
+          <li>
+            <a  class="footer-link">Immune System</a>
+          </li>
+
+          <li>
+            <a  class="footer-link">Gives You Energy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Help Links</p>
+          </li>
+
+          <li>
+            <a  class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a  class="footer-link">Discussion</a>
+          </li>
+
+          <li>
+            <a  class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a  class="footer-link">Customer Support</a>
+          </li>
+
+          <li>
+            <a  class="footer-link">Course FAQ’s</a>
+          </li>
+
+          <li>
+            <a  class="footer-link">Online Classes</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Opening Hours</p>
+          </li>
+
+          <li>
+            <a  class="footer-link">Mon-Fri: 9 AM – 6 PM</a>
+          </li>
+
+          <li>
+            <a  class="footer-link">Saturday: 9 AM – 4 PM</a>
+          </li>
+
+          <li>
+            <a  class="footer-link">Sunday: Closed</a>
+          </li>
+
+          <li>
+            <a href="https://www.google.co.in/maps/place/SRM+Institute+of+Science+and+Technology/@12.8230382,80.0418411,17z/data=!3m1!4b1!4m6!3m5!1s0x3a52f712b82a78d9:0xfdb944a3aee53831!8m2!3d12.823033!4d80.044416!16zL20vMGJwNzl6?entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank">
+            <p class="footer-list-title address-title">Location</p>
+            </a>
+          </li>
+
+          <li>
+            <address class="address">
+              SRM Nagar, Kattankulathur - 603 203 Chengalpattu District, Tamil Nadu.
+            </address>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy;
+          <ion-icon name="heart" aria-hidden="true"></ion-icon>VibeTrack
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li class="footer-bottom-item">
+            <a class="footer-bottom-link">Terms of Service</a>
+          </li>
+
+          <li class="footer-bottom-item">
+            <a class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li class="footer-bottom-item">
+            <a class="footer-bottom-link">Sitemap</a>
+          </li>
+
+          <li class="footer-bottom-item">
+            <a class="footer-bottom-link">Security</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
